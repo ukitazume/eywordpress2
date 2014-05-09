@@ -1,4 +1,4 @@
-require './common.rb'
+require './common'
 unless Dir.exists?(server_side_wordpress_path)
   run! "cp -r #{config.latest_release} #{server_side_wordpress_path}"
 end
